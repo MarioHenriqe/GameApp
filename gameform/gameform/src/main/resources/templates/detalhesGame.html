@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo">Home</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/cadastrarGame">Cadastrar Jogo</a></li>
+                <li><a href="/games">Lista de jogos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<H1>Jogo:</H1>
+<a href="/games" class="waves-effect waves-light btn"><i class="material-icons right">add_circle</i>Lista de Jogos</a>
+<div th:each="game : ${game}" class="container">
+    <div class="row">
+        <p>Id:<span th:text="${game.id}"></span></p>
+        <p>Nome do Jogo: <span th:text="${game.name}"></span></p>
+        <p>Copias Vendidas: <span th:text="${game.sold}"></span></p>
+        <p>Data de Lancamento: <span th:text="${game.launchDate}"></span></p>
+        <p>Possui MultiPlayer: <span th:text="${game.hasMultiplayer}"></span></p>
+    </div>
+
+    <th:block th:include="mensagemValidacao"></th:block>
+
+    <form method="post">
+        <p>Nome do Funcionario:</p>
+        <input type="text" name="nome" value="">
+        <p>Funcao:</p>
+        <input type="text" name="funcao" value="">
+        <p></p>
+        <button type="submit" class="waves-effect waves-light btn">Salvar</button>
+    </form>
+</div>
+<h5>Trabalharam no jogo:</h5>
+<table class="container">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Funcao</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each = "equipe : ${equipe}">
+            <td><span th:text="${equipe.nome}"></span></td>
+            <td><span th:text="${equipe.funcao}"></span></td>
+            <td><a class="waves-effect waves-light btn" th:href="${(#mvc.url('GC#deletarFuncionario').arg(0, equipe.id)).build()}"><i class="material-icons left">delete</i>Deletar</a></td>
+        </tr>
+    </tbody>
+</table>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

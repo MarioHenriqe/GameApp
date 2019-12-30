@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/cadastrarGame">Cadastrar Jogo</a></li>
+                    <li><a href="/games">Lista de jogos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <H1>Lista de jogos cadastrados</H1>
+
+    <table class="container">
+        <thead>
+            <tr>
+                <th>Nome do jogo</th>
+                <th>Copias Vendidas</th>
+                <th>Data de Lancamento</th>
+                <th>MultiJogador?</th>
+                <th>Deletar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="game: ${games}">
+                <td><a th:href="${(#mvc.url('GC#detalhesGame').arg(0, game.id)).build()}"><span th:text = "${game.name}"></span></a></td>
+                <td><span th:text = "${game.sold}"></span></td>
+                <td><span th:text = "${game.launchDate}"></span></td>
+                <td><span th:text = "${game.hasMultiplayer}"></span></td>
+                <td><a class="waves-effect waves-light btn" th:href="${(#mvc.url('GC#deletarGame').arg(0, game.id)).build()}"><i class="material-icons left">delete</i>Deletar</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
