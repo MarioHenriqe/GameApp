@@ -10,9 +10,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="FxmlFile" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1VO7ePYrcdQNCX0jMJJsYjVb4oJ" />
@@ -29,17 +37,18 @@
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="gameform" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MarioHenriquedaSilva\Desktop\gameform\src\main\resources" />
+      <recent name="C:\Users\MarioHenriquedaSilva\Desktop\gameform\gameform\src\main\resources\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MarioHenriquedaSilva\Desktop\gameform\gameform\src\main\resources\static\materialize" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MarioHenriquedaSilva\Desktop\gameform\gameform\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,22 +109,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1577450550061" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1577724439236">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578071683292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577724439236" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1577724439236">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578071683292" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578071683291">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577724439236" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1577724439235">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578071683291" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578071683291">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577724439235" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1577724439236">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578071683291" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578071683292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577724439236" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578071683292" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1577450652879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
