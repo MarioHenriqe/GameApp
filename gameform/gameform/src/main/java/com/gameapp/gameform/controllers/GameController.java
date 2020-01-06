@@ -15,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
+import java.io.Console;
 
 @Controller
 public class GameController {
@@ -45,10 +46,15 @@ public class GameController {
 
     @RequestMapping("/games")
     public ModelAndView listaGames(){
-        ModelAndView mv = new ModelAndView("index");
-        Iterable<Game> games = gameRepository.findAll();
-        mv.addObject("games", games);
-        return mv;
+        try {
+            ModelAndView mv = new ModelAndView("index");
+            Iterable<Game> games = gameRepository.findAll();
+            mv.addObject("games", games);
+            return mv;
+        } catch (Exception ex){
+            System.out.println(ex);
+        }
+        return null;
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
