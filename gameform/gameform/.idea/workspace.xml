@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67969b04-3bf9-449a-b3fa-f7627bb33428" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_azure_applicationinsights_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_azure_applicationinsights_spring_boot_starter_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_azure_applicationinsights_web_2_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gameform.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/gameform_jar/gameform.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gameform_jar/gameform.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +15,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
@@ -36,7 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VO7ePYrcdQNCX0jMJJsYjVb4oJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -108,7 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1577112382403</updated>
     </task>
+    <task id="LOCAL-00001" summary="Configuracao da instrumentation key.">
+      <created>1578339582127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578339582127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuracao da instrumentation key." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuracao da instrumentation key." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="0" key="#Dockerfile" timestamp="1577709857710">
@@ -123,30 +133,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1577450550061" />
-    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578330675909">
+    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578401674613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578330675909" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578339503038">
+    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578401674613" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578401680522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578339503038" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578339503038">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578401680522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578339503038" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578339503038">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578401680521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578339503038" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578339503038">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578401680521" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578401680522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578339503038" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1577450652879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577450652879" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578339606000">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578339606000" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1577365012163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
