@@ -7,6 +7,7 @@ import com.gameapp.gameform.repository.GameRepository;
 import com.microsoft.applicationinsights.TelemetryClient;
 import com.microsoft.applicationinsights.telemetry.Duration;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -58,14 +59,14 @@ public class GameController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public ModelAndView detalhesGame(@PathVariable("id") long id){
+    public ResponseEntity<Game> detalhesGame(@PathVariable("id") long id){
         Game game = gameRepository.findById(id);
-        ModelAndView mv = new ModelAndView("detalhesGame");
+        /*ModelAndView mv = new ModelAndView("detalhesGame");
         mv.addObject("game", game);
         telemetryClient.trackDependency("SQL", "Select", new Duration(0,0,1,1,1), true);
         Iterable<Equipe> equipe = equipeRepository.findByGame(game);
-        mv.addObject("equipe", equipe);
-        return mv;
+        mv.addObject("equipe", equipe);*/
+        return ResponseEntity.ok(game);
     }
 
     @RequestMapping("/deletarGame")
