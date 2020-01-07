@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67969b04-3bf9-449a-b3fa-f7627bb33428" name="Default Changelist" comment="Handler de excessoes.">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gameapp/gameform/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gameapp/gameform/controllers/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="67969b04-3bf9-449a-b3fa-f7627bb33428" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578402184496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Handler de excessoes.">
+      <created>1578402382384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578402382384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,34 +147,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1577450550061" />
-    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578402170464">
+    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578423305241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578402170464" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578401680522">
+    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578423305241" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578423309173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578401680522">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578423309173" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578423309173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578401680521">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578423309173" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578423309172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578401680521" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578401680522">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578423309172" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578423309173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578401680522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578423309173" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1577450652879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577450652879" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578339606000">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578402509786">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578339606000" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578402509786" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1577365012163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

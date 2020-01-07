@@ -4,6 +4,8 @@ import com.gameapp.gameform.models.Equipe;
 import com.gameapp.gameform.models.Game;
 import com.gameapp.gameform.repository.EquipeRepository;
 import com.gameapp.gameform.repository.GameRepository;
+import com.microsoft.applicationinsights.TelemetryClient;
+import com.microsoft.applicationinsights.telemetry.Duration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -23,6 +25,9 @@ public class GameController {
     @Autowired
     private EquipeRepository equipeRepository;
 
+    @Autowired
+    TelemetryClient telemetryClient;
+
     @RequestMapping(value = "/cadastrarGame", method = RequestMethod.GET)
     public String form(){
         return "formGame";
@@ -33,6 +38,8 @@ public class GameController {
 
         if(result.hasErrors()){
             attributes.addFlashAttribute("mensagem", "Verifque os campos");
+            telemetryClient.trackDependency("SQL", "Insert", new Duration(0,0,1,1,1), true);
+
             return "redirect:/cadastrarGame";
         }
 
@@ -45,6 +52,7 @@ public class GameController {
     public ModelAndView listaGames(){
             ModelAndView mv = new ModelAndView("index");
             Iterable<Game> games = gameRepository.findAll();
+            telemetryClient.trackDependency("SQL", "Select", new Duration(0,0,1,1,1), true);
             mv.addObject("games", games);
             return mv;
     }
@@ -54,7 +62,7 @@ public class GameController {
         Game game = gameRepository.findById(id);
         ModelAndView mv = new ModelAndView("detalhesGame");
         mv.addObject("game", game);
-
+        telemetryClient.trackDependency("SQL", "Select", new Duration(0,0,1,1,1), true);
         Iterable<Equipe> equipe = equipeRepository.findByGame(game);
         mv.addObject("equipe", equipe);
         return mv;
@@ -63,6 +71,7 @@ public class GameController {
     @RequestMapping("/deletarGame")
     public String deletarGame(long id){
         Game game = gameRepository.findById(id);
+        telemetryClient.trackDependency("SQL", "Delete", new Duration(0,0,1,1,1), true);
         gameRepository.delete(game);
         return "redirect:/games";
     }
@@ -74,6 +83,7 @@ public class GameController {
         Game game = equipe.getGame();
         long idGame = game.getId();
         String idString = "" + idGame;
+        telemetryClient.trackDependency("SQL", "Delete", new Duration(0,0,1,1,1), true);
         return "redirect:/" + idString;
     }
 
