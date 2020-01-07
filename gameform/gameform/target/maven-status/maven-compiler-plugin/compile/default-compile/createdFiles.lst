@@ -1,8 +1,11 @@
 com\gameapp\gameform\repository\EquipeRepository.class
 com\gameapp\gameform\models\Game.class
+com\gameapp\gameform\errorHandler\CustomExceptionHandler.class
 com\gameapp\gameform\controllers\GameController.class
 com\gameapp\gameform\models\Equipe.class
-com\gameapp\gameform\controllers\IndexController.class
-com\gameapp\gameform\repository\GameRepository.class
 com\gameapp\gameform\data\DataConfiguration.class
 com\gameapp\gameform\GameformApplication.class
+com\gameapp\gameform\errorHandler\ErrorResponse.class
+com\gameapp\gameform\errorHandler\RecordNotFoundException.class
+com\gameapp\gameform\controllers\IndexController.class
+com\gameapp\gameform\repository\GameRepository.class
