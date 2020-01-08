@@ -4,10 +4,7 @@
     <list default="true" id="67969b04-3bf9-449a-b3fa-f7627bb33428" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/gameform_jar/gameform.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gameform_jar/gameform.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gameapp/gameform/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gameapp/gameform/controllers/GameController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +134,22 @@
       <option name="project" value="LOCAL" />
       <updated>1578423388581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Teste">
+      <created>1578426845244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578426845244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuracao da instrumentation key." />
     <MESSAGE value="Handler de excessoes." />
     <MESSAGE value="Telemetria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Telemetria" />
+    <MESSAGE value="Teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="0" key="#Dockerfile" timestamp="1577709857710">
@@ -159,50 +164,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1577450550061" />
-    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578423376546">
+    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1578488682573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578423376546" />
-    <state width="1237" height="332" key="GridCell.Tab.0.bottom" timestamp="1578426556705">
+    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578488682573" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578488688426">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578426556705" />
-    <state width="1237" height="332" key="GridCell.Tab.0.center" timestamp="1578426556704">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578488688426" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578488688425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578426556704" />
-    <state width="1237" height="332" key="GridCell.Tab.0.left" timestamp="1578426556704">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578488688425" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578488688425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578426556704" />
-    <state width="1237" height="332" key="GridCell.Tab.0.right" timestamp="1578426556704">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578488688425" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578488688426">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578426556704" />
-    <state width="1237" height="332" key="GridCell.Tab.1.bottom" timestamp="1578426556372">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578488688426" />
+    <state width="1237" height="332" key="GridCell.Tab.1.bottom" timestamp="1578427061825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578426556372" />
-    <state width="1237" height="332" key="GridCell.Tab.1.center" timestamp="1578426556371">
+    <state width="1237" height="332" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578427061825" />
+    <state width="1237" height="332" key="GridCell.Tab.1.center" timestamp="1578427061824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578426556371" />
-    <state width="1237" height="332" key="GridCell.Tab.1.left" timestamp="1578426556371">
+    <state width="1237" height="332" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578427061824" />
+    <state width="1237" height="332" key="GridCell.Tab.1.left" timestamp="1578427061824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578426556371" />
-    <state width="1237" height="332" key="GridCell.Tab.1.right" timestamp="1578426556372">
+    <state width="1237" height="332" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578427061824" />
+    <state width="1237" height="332" key="GridCell.Tab.1.right" timestamp="1578427061825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="332" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578426556372" />
+    <state width="1237" height="332" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578427061825" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1577450652879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577450652879" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578423398125">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578426851733">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578423398125" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578426851733" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1577365012163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -211,16 +216,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577365335135" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gameapp/gameform/controllers/GameController.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
