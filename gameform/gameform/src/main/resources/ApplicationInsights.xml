@@ -7,6 +7,25 @@
     <!-- or use a connection string instead of the InstrumentationKey element (since 2.5.1): -->
     <!-- <ConnectionString>InstrumentationKey=ffffeeee-dddd-cccc-bbbb-aaaa99998888</ConnectionString> -->
 
+    <ContextInitializers>
+        <!-- The next two initializers are commented out because they are included by default and cannot be removed. -->
+
+        <!--
+        This adds metadata regarding where the application is running, e.g. OS, hostname, etc.
+        <Add type="DeviceInfoContextInitializer" />
+
+        This adds metadata about the SDK version and language.
+        <Add type="SdkVersionContextInitializer" />
+        -->
+        <!-- Examples of custom initializers -->
+        <Add type="mypackage.MyCustomContextInitializer" />
+
+        <!-- If you would like the initializer to be configurable, provide a constructor with a single parameter of type Map<String, String> -->
+        <Add type="mypackage.MyConfigurableContextInitializer">
+            <Param name="some_config_property" value="some_value" />
+        </Add>
+    </ContextInitializers>
+
     <!-- HTTP request component (not required for bare API) -->
     <!-- These modules enable collection of additional telemetry or metadata -->
     <TelemetryModules>
@@ -16,6 +35,13 @@
         <Add type="com.microsoft.applicationinsights.web.extensibility.modules.WebSessionTrackingTelemetryModule"/>
         <!-- collects user metatdata  -->
         <Add type="com.microsoft.applicationinsights.web.extensibility.modules.WebUserTrackingTelemetryModule"/>
+        <!-- examples of custom modules -->
+        <Add type="mypackage.MyCustomModule" />
+
+        <!-- If you would like the module to be configurable, provide a constructor with a single parameter of type java.util.Map<String, String> -->
+        <Add type="mypackage.MyConfigurableModule">
+            <Param name="some_config_property" value="some_value" />
+        </Add>
     </TelemetryModules>
 
     <!-- Events correlation (not required for bare API) -->
