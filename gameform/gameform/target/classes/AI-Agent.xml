@@ -20,6 +20,8 @@
                  default is 10000 milliseconds -->
             <MaxStatementQueryLimitInMS>1000</MaxStatementQueryLimitInMS>
 
+            <HTTP enabled="true" W3C="true" enableW3CBackCompat="true"/>
+
         </BuiltIn>
     </Instrumentation>
 </ApplicationInsightsAgent>
