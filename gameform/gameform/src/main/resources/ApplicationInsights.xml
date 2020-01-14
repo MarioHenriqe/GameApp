@@ -42,6 +42,10 @@
         <Add type="mypackage.MyConfigurableModule">
             <Param name="some_config_property" value="some_value" />
         </Add>
+    <Add type="com.microsoft.applicationinsights.web.extensibility.modules.WebRequestTrackingTelemetryModule">
+       <Param name = "W3CEnabled" value ="true"/>
+       <Param name ="enableW3CBackCompat" value = "true" />
+    </Add>
     </TelemetryModules>
 
     <!-- Events correlation (not required for bare API) -->
